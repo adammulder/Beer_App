@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  
+  <section>
+    <div class="card text-white text-center bg-black" data-tor-parent="hover">
+        <h1>
+          <span class="d-block"><span data-tor="hover(p):clip(right) exponential">Welcome</span></span>
+          <span class="d-block"><span data-tor="hover(p):clip(right) exponential delay(100ms)">to</span></span>
+          <span class="d-block"><span data-tor="hover(p):clip(right) exponential delay(200ms)">Beertopia</span></span>
+        </h1>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="bg-white text-white row">
+      <div class="col-3 p-5">
+        <div class="circle circle-lg p-8" data-tor="hover:shadow(pop)" data-tor-parent="hover hover-fix" data-tor-group=".d-block span => hover(p):[pull.up(sm) fade.in] delay(/+50ms/) slow bounce;">
+            <img src="../../static/images/IPA.jpg" class="w-h-100" alt="...">
+            <span class="d-block">
+                <span><h1 class="text-white">IPA</h1></span>
+        </div> 
+      </div>
+      <div class="col-3 p-5">
+        <div class="circle circle-lg p-8" data-tor="hover:shadow(pop)" data-tor-parent="hover hover-fix" data-tor-group=".d-block span => hover(p):[pull.up(sm) fade.in] delay(/+50ms/) slow bounce;">
+            <img src="../../static/images/irish-red.jpg" class="w-h-100" alt="...">
+            <span class="d-block">
+                <span><h1 class="text-white">Red Ale</h1></span>
+        </div> 
+      </div>
+      <div class="col-3 p-5">
+        <div class="circle circle-lg p-8" data-tor="hover:shadow(pop)" data-tor-parent="hover hover-fix" data-tor-group=".d-block span => hover(p):[pull.up(sm) fade.in] delay(/+50ms/) slow bounce;">
+            <img src="../../static/images/poter.webp" class="w-h-100" alt="...">
+            <span class="d-block">
+                <span><h1 class="text-white">Porter</h1></span>
+        </div> 
+      </div>
+      <div class="col-3 p-5">
+        <div class="circle circle-lg p-8" data-tor="hover:shadow(pop)" data-tor-parent="hover hover-fix" data-tor-group=".d-block span => hover(p):[pull.up(sm) fade.in] delay(/+50ms/) slow bounce;">
+            <img src="../../static/images/Lager.jpg" class="w-h-100" alt="...">
+            <span class="d-block">
+                <span><h1 class="text-white">Lager</h1></span>
+        </div> 
+      </div>
+      <div class="col-3 p-5">
+        <div class="circle circle-lg p-8" data-tor="hover:shadow(pop)" data-tor-parent="hover hover-fix" data-tor-group=".d-block span => hover(p):[pull.up(sm) fade.in] delay(/+50ms/) slow bounce;">
+            <img src="../../static/images/Belgium.jpg" class="w-h-100" alt="...">
+            <span class="d-block">
+                <span><h1 class="text-white">Belgium</h1></span>
+        </div> 
+      </div>
+      <div class="col-3 p-5">
+        <div class="circle circle-lg p-8" data-tor="hover:shadow(pop)" data-tor-parent="hover hover-fix" data-tor-group=".d-block span => hover(p):[pull.up(sm) fade.in] delay(/+50ms/) slow bounce;">
+            <img src="../../static/images/sour.jpg" class="w-h-100" alt="...">
+            <span class="d-block">
+                <span><h1 class="text-white">Sour</h1></span>
+        </div> 
+      </div>
+      <div class="col-3 p-5">
+        <div class="circle circle-lg p-8" data-tor="hover:shadow(pop)" data-tor-parent="hover hover-fix" data-tor-group=".d-block span => hover(p):[pull.up(sm) fade.in] delay(/+50ms/) slow bounce;">
+            <img src="../../static/images/stout.jpg" class="w-h-100" alt="...">
+            <span class="d-block">
+                <span><h1 class="text-white">Stout</h1></span>
+        </div> 
+      </div>
+      <div class="col-3 p-5">
+        <div class="circle circle-lg p-8" data-tor="hover:shadow(pop)" data-tor-parent="hover hover-fix" data-tor-group=".d-block span => hover(p):[pull.up(sm) fade.in] delay(/+50ms/) slow bounce;">
+            <img src="../../static/images/wheat ale.jpeg" class="w-h-100" alt="...">
+            <span class="d-block">
+                <span><h1 class="text-white">Wheat</h1></span>
+        </div> 
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="bg-white text-dark text-center justify-content-evenly shadow-pop shadow-danger">
+      <p class="fw-normal lh-lg fs-5">
+        Welcome to beertopia. You can make a complete inventory of your
+        favorite beers. We have delicious selection to choose from. Enjoy!
+      </p>
+    </div>
+  </section>
+  {% endblock %}

@@ -43,10 +43,10 @@ def get_beer(current_user_token, id):
 @token_required
 def update_beer(current_user_token, id):
     collect = Collection.query.get(id)
-    collect.name = request.json['brand']
-    collect.email = request.json['type']
-    collect.phone_number = request.json['abv']
-    collect.address = request.json['ibu']
+    collect.brand = request.json['brand']
+    collect.type = request.json['type']
+    collect.abv = request.json['abv']
+    collect.ibu = request.json['ibu']
     collect.user_token = current_user_token.token
 
     db.session.commit()

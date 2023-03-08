@@ -74,7 +74,7 @@ class Collection(db.Model):
 
 class CollectSchema(ma.Schema):
     class Meta:
-        fields = ['id', 'brand', 'type', 'abv', 'ibv']
+        fields = ['id', 'brand', 'type', 'abv', 'ibu']
 
 collect_schema = CollectSchema()
 collects_schema = CollectSchema(many=True)
